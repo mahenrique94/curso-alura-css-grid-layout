@@ -15,15 +15,12 @@
         "card-imagem"
         "card-corpo";
     grid-template-columns: 100%;
-    grid-template-rows: 173px auto;
-    margin-right: 1rem;
-    width: calc(20% - 1rem);
 }
 
-.populares__card:last-child {
+.populares__card:last-child { 
     margin-right: 0;
 }
-
+ 
 .populares__card___imagem {
     grid-area: card-imagem;
     height: 100%;
